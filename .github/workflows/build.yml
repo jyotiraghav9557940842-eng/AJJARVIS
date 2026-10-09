@@ -9,7 +9,7 @@ jobs:
         with:
           distribution: temurin
           java-version: 17
-      - run: unzip -q AJs_Jarvis_v1_4.zip -d proj
+      - run: unzip -q AJs_Jarvis_v1_5.zip -d proj
       - run: |
           cd proj/JarvisAssistant
           chmod +x gradlew
